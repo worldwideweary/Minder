@@ -968,6 +968,7 @@ public enum KeyCommand {
       case NODE_QUICK_ENTRY_INSERT :
       case NODE_ADD_SIBLING_AFTER  :
       case NODE_ADD_SIBLING_BEFORE :
+      case NODE_SELECT_ROOT        :
       case EDIT_PASTE              :
       case ESCAPE                  :
         return( true );
