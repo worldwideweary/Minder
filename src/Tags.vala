@@ -165,7 +165,8 @@ public class Tags {
   // cannot be found.
   public int get_tag_index( Tag tag ) {
     for( int i=0; i<_tags.length; i++ ) {
-      if( _tags.index( i ) == tag ) {
+      var curr_tag = _tags.index( i );
+      if( (curr_tag == tag) || (curr_tag.name == tag.name) ) {
         return( i );
       }
     }
